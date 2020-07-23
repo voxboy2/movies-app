@@ -4,12 +4,15 @@ import Axios from 'axios'
 import { Popover } from 'antd'
 import { IMAGE_URL } from '../../Config'
 import MovieDetailPage from '../MovieDetailPage/MovieDetailPage'
+import FlashMessage from 'react-flash-message'
 
 export default function FavoritePage() {
 
     const variables = { userFrom: localStorage.getItem('userId') }
 
     const [FavoritedMovies, setFavoritedMovies] = useState([])
+
+    const [ShowMessage, setShowMessage] = useState([false])
 
     useEffect(() => {
        fetchFavoritedMovies();
