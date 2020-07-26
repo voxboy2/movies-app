@@ -1,4 +1,7 @@
-FROM node:10
+FROM node:lts-slim
 WORKDIR /app
 COPY package.json /app
+EXPOSE 3000
 RUN npm install
+# You can change this
+CMD [ "npm run dev" ]

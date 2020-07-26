@@ -1,10 +1,3 @@
-Boilerplate-mern-stack is being sponsored by the following tool <br />
-Please help to support us by taking a look and signing up to a free trial
-<a href="https://tracking.gitads.io/?repo=boilerplate-mern-stack"><img src="https://images.gitads.io/boilerplate-mern-stack" alt="GitAds"/></a> 
-
-
-Hello, My Friends  
-Thank you for having interest in this repository ! 
 
 To use this application, 
 
@@ -16,7 +9,7 @@ To use this application,
 
 If you have problem, feel free to ask me ^^ 
 
-You can watch the tutorial for this app.
+a movie app made by following tis tutorial
 
 https://www.youtube.com/channel/UCFyXA9x8lpL3EYWeYhj4C4Q?view_as=subscriber
 
